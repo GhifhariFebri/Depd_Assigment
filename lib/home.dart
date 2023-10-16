@@ -9,8 +9,6 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   bool isLoved = false; // Variabel untuk mengontrol ikon hati
-  String buttonPressed =
-      "Button sudah ditekan"; // Pesan yang muncul saat tombol ditekan
 
   // Fungsi untuk mengubah status ikon hati
   void toggleLove() {
@@ -160,7 +158,7 @@ class _HomePageState extends State<HomePage> {
                     child: Text(
                       "Tunjungan Road",
                       style: TextStyle(
-                        fontSize: 24,
+                        fontSize: 30,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
